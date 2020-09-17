@@ -49,7 +49,7 @@ function drawFace(detections){
     ctx.strokeWidth = "3";
     const height = box.height;
     const width = box.width;
-    const x = box.x ;
+    const x = box.x;
     const y = box.y - height/6;
     // ctx.strokeRect(x, y, width, height);
     const img = new Image();
