@@ -15,14 +15,28 @@
             align-items:center;
         }
         
+        @media only screen and (max-width: 600px){
+            video{
+                height: 500px;
+                width:500px;
+            }
+            canvas {
+                height: 400px;
+                width:470px;
+            }
+
+        }
         canvas{
             /* height:auto; */
             position: absolute;
         }
+        
     </style>
 </head>
 <body>
-    <video src="" id="video" height="560" width="720" autoplay muted></video>  
+    <div class="container">
+        <video src="" id="video" height="560" width="720" autoplay muted></video>
+    </div>
     <script defer src="face-api.min.js"></script>
     <script defer src="detectFace.js"></script>
 </body>
