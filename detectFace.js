@@ -54,5 +54,5 @@ function drawFace(detections){
     // ctx.strokeRect(x, y, width, height);
     const img = new Image();
     img.src = "https://www.pinclipart.com/picdir/big/337-3374775_spider-face-webbing-hero-comic-mask-super-hero.png"
-    ctx.drawImage(img, x, y, width, height)
+    ctx.drawImage(img, x, y, width, height);
 }
